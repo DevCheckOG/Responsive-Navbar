@@ -1,0 +1,65 @@
+*{
+
+    font-family: 'JetBrains Mono', monospace;
+    background-size: cover;
+    background-color: black;
+    scroll-behavior: smooth;
+    color: white;
+    user-select: none;
+
+}
+
+
+.nav-bar h1{
+
+    font-size: 2.0em;
+    padding-left: 50px;
+    text-decoration: underline;
+    
+}
+
+
+.nav-bar a{
+
+    position: relative;
+    top: -53px;
+    float: right;
+    font-size: 1.1em;
+    text-decoration: none;
+    margin-right: 70px;
+
+}
+
+
+.nav-bar a:hover{
+
+    text-shadow: 1px 1px 40px white;
+    opacity: 10;
+
+}
+
+
+@media (min-width: 1px) and (max-width: 800px) {
+
+    .nav-bar h1{
+
+        text-align: center;
+        height: 120px;
+        margin-right: 50px;
+
+    }
+
+    .nav-bar a{
+
+        float: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        top: -5px;
+        margin-bottom: 90px;
+        margin-right: 0;
+
+    }
+
+}
